@@ -1,7 +1,7 @@
 ## justContext.js
 ![](https://raw.githubusercontent.com/minxomat/justContext.js/master/title.png)
 
-justContext is a simple context menu plugin that doesn't require jQuery, kicks ass anyway. Here are some of the features:
+justContext is a simple context menu plugin that doesn't require jQuery, but kicks ass anyway. Here are some of the features:
 
 - Just about 30 lines of JS and a bit CSS
 - Context menus can be styled. Two themes are included, plus three themes for drop shadow effects (off, light and dark)
