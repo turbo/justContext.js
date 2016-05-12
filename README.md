@@ -24,7 +24,7 @@ justContext is a simple context menu plugin that doesn't require jQuery, but kic
 
 **Styling**
 
-1. Include the CSS for justContext. Either write you own, or just download a pre-configured one from [here](https://raw.githubusercontent.com/minxomat/justContext.js/gh-pages/lib/justcontext.css).
+1. Include the CSS for justContext. Either write your own, or just download a pre-configured one from [here](https://raw.githubusercontent.com/minxomat/justContext.js/gh-pages/lib/justcontext.css).
 2. Modify the HTML element you want to host a context menu on and give it a unique ID. For example:
 
 ```HTML
