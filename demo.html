@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>justContext Demo</title>
+
+		<!-- justContext.js -->
+		<link rel="stylesheet" href="lib/justcontext.css">
+		<script src="lib/justcontext.js"></script>
+
+		<!-- Only for this demo -->
+		<link rel="stylesheet" href="demo.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-aNUYGqSUL9wG/vP7+cWZ5QOM4gsQou3sBfWRr/8S3R1Lv0rysEmnwsRKMbhiQX/O" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<div class="demo demo-left">
+			<!-- Black context menu host -->
+			<p class="jctx-host jctx-id-foo">Right-click this text<br/>for the black theme...</p>
+		</div>
+
+		<div class="demo demo-right">
+			<!-- White context menu host -->
+			<p class="jctx-host jctx-id-bar">...and this text for<br/>the white theme.</p>
+		</div>
+
+		<!-- Black context menu, with disabled item -->
+		<ul class="jctx jctx-id-foo jctx-black jctx-black-shadow">
+			<li data-action="cut">Cut</li>
+			<li data-action="copy">Copy</li>
+			<li data-action="paste">Paste</li>
+			<hr>
+			<li data-action="new_pkg">New package</li>
+			<li data-action="new_cls">New class</li>
+			<li data-action="new_intf" class="disabled">New interface (a disabled entry)</li>
+		</ul>
+
+		<!-- White context menu, with icons -->
+		<ul class="jctx jctx-id-bar jctx-white jctx-white-shadow">
+			<li data-action="line_comment">Toggle line comment</li>
+			<li data-action="sel_comment">Comment selection</li>
+			<li data-action="tidy_selection">Tidy selection</li>
+			<hr>
+			<li data-action="pastebin"><i class="fa fa-code"></i>Pastebin snippet (from selection)</li>
+		</ul>
+	</body>
+
+	<!-- Defining a sample action handler (for all menus) -->
+	<script>
+		function handleMenuAction(evt) {
+			alert("Action required: " + evt);
+		}
+	</script>
+</html>

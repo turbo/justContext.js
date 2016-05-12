@@ -1,0 +1,72 @@
+.jctx {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #595959;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 0;
+	opacity: 0;
+	-webkit-transition:opacity 200ms;
+    -moz-transition:opacity 200ms;
+    -o-transition:opacity 200ms;
+    -ms-transition:opacity 200ms;
+}
+
+.jctx-black {
+    background: black;
+    color: white;
+}
+
+.jctx-white {
+    background: white;
+    color: black;
+}
+
+.jctx-white-shadow {
+	box-shadow: 0 0 15px grey;
+}
+
+.jctx-black-shadow {
+	box-shadow: 0 0 15px black;
+}
+
+.jctx li {
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.jctx li.disabled {
+    color: darkgrey;
+	cursor: default;
+}
+
+.jctx-black li:hover {
+    background-color: #284160;
+}
+
+.jctx-white li:hover {
+    background-color: #81B2D6;
+}
+
+.jctx-black li.disabled:hover {
+    background-color: #202020;
+}
+
+.jctx-white li.disabled:hover {
+    background-color: lightgrey;
+}
+
+.jctx i {
+    padding-right: 6px
+}
+
+.jctx hr {
+    background-color: grey;
+    height: 1px;
+    border: 0;
+    margin: 2px 0px;
+}
