@@ -13,6 +13,8 @@ justContext is a simple context menu plugin that doesn't require jQuery, but kic
 
 ## Getting Started
 
+**Including**
+
 1. View the demo [here](http://minxomat.github.io/justContext.js). All browsers but IE are supported.
 2. Include justContext in your website. We recommend the antiquant CDN:
 
@@ -20,8 +22,10 @@ justContext is a simple context menu plugin that doesn't require jQuery, but kic
 <script src="https://antiquant.com/justcontext.js" integrity="sha384-wPEZ1otfu5BsVsQqmszGcZexq+By9WUQt8zIQsJSjbTK/5JkmE9HXiSWJFxRHZmB" crossorigin="anonymous"></script>
 ```
 
-3. Include the CSS for justContext. Either write you own, or just download a pre-configured one from [here](https://raw.githubusercontent.com/minxomat/justContext.js/gh-pages/lib/justcontext.css).
-4. Modify the HTML element you want to host a context menu on and give it a unique ID. For example:
+**Styling**
+
+1. Include the CSS for justContext. Either write you own, or just download a pre-configured one from [here](https://raw.githubusercontent.com/minxomat/justContext.js/gh-pages/lib/justcontext.css).
+2. Modify the HTML element you want to host a context menu on and give it a unique ID. For example:
 
 ```HTML
 <p class="jctx-host jctx-id-foo">Right-click this</p>
@@ -29,7 +33,9 @@ justContext is a simple context menu plugin that doesn't require jQuery, but kic
 
 `jctx-host` marks a hosting element. `foo` is the unique ID for this menu.
 
-5. Now create the actual menu. We use the black theme here, and a drop shadow:
+**Creating**
+
+1. Now create the actual menu. We use the black theme here, and a drop shadow:
 
 ```HTML
 <ul class="jctx jctx-id-foo jctx-black jctx-black-shadow">
@@ -45,7 +51,9 @@ justContext is a simple context menu plugin that doesn't require jQuery, but kic
 
 The `jctx` styles and hides the menu. The unique ID is re-used here to identify the parent. The `data-action` attribute of each menu entry is the string that is passed to the action handler when an entry is pressed.
 
-6. Define your action handler. A simple example that just displays the passed action is:
+**Action Handling**
+
+1. Define your action handler. A simple example that just displays the passed action is:
 
 ```HTML
 <!-- Defining a sample action handler (for all menus) -->
