@@ -19,7 +19,7 @@ justContext is a simple context menu plugin that doesn't require jQuery, but kic
 2. Include justContext in your website. We recommend the antiquant CDN:
 
 ```html
-<script src="https://antiquant.com/justcontext.js" integrity="sha384-wPEZ1otfu5BsVsQqmszGcZexq+By9WUQt8zIQsJSjbTK/5JkmE9HXiSWJFxRHZmB" crossorigin="anonymous"></script>
+<script src="https://antiquant.com/justcontext.js"></script>
 ```
 
 **Styling**
