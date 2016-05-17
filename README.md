@@ -11,6 +11,8 @@ justContext is a simple context menu plugin that doesn't require jQuery, but kic
 - Menu do have fade-in and fade-out effect (again, no jQuery)
 - Support for fontawesome icons is built-in
 
+justContext.js is featured at [Unheap](http://www.unheap.com/other/miscellaneous/justcontext-js/) and [cssscript.com](http://www.cssscript.com/lightweight-context-menu-javascript-library-justcontext-js/). Share url: [git.io/justContext.js](https://git.io/justContext.js).
+
 ## Getting Started
 
 **Including**
