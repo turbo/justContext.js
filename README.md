@@ -1,5 +1,5 @@
 ## justContext.js
-![](https://raw.githubusercontent.com/minxomat/justContext.js/master/title.png)
+![](https://raw.githubusercontent.com/turbo/justContext.js/master/title.png)
 
 justContext is a simple context menu plugin that doesn't require jQuery, but kicks ass anyway. Here are some of the features:
 
@@ -17,7 +17,7 @@ justContext.js is featured at [Unheap](http://www.unheap.com/other/miscellaneous
 
 **Including**
 
-1. View the demo [here](http://minxomat.github.io/justContext.js). All browsers but IE are supported.
+1. View the demo [here](http://turbo.github.io/justContext.js). All browsers but IE are supported.
 2. Include justContext in your website. 
 
 **Styling**
